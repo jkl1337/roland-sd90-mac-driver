@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>RDUSB0016Dev</string>
+	<key>CFBundleIdentifier</key>
+	<string>jp.co.roland.RDUSB0016Dev</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundlePackageType</key>
+	<string>KEXT</string>
+	<key>CFBundleSignature</key>
+	<string>R016</string>
+	<key>CFBundleVersion</key>
+	<string>1.0.0</string>
+	<key>IOKitPersonalities</key>
+	<dict>
+		<key>RDUSB0016</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>jp.co.roland.RDUSB0016Dev</string>
+			<key>IOClass</key>
+			<string>jp_co_roland_RDUSB0016Dev_AudioDevice</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBDevice</string>
+			<key>IOUserClientClass</key>
+			<string>jp_co_roland_RDUSB0016Dev_KextUserClient</string>
+			<key>idProduct</key>
+			<integer>22</integer>
+			<key>idVendor</key>
+			<integer>1410</integer>
+		</dict>
+	</dict>
+	<key>OSBundleLibraries</key>
+	<dict>
+		<key>com.apple.iokit.IOAudioFamily</key>
+		<string>1.5.0b1</string>
+		<key>com.apple.iokit.IOUSBFamily</key>
+		<string>1.9.4fc1</string>
+		<key>com.apple.kpi.iokit</key>
+		<string>8.0.0b3</string>
+		<key>com.apple.kpi.libkern</key>
+		<string>8.0.0b3</string>
+		<key>com.apple.kpi.mach</key>
+		<string>8.0.0b3</string>
+	</dict>
+</dict>
+</plist>
